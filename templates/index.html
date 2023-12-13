@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translator</title>
+</head>
+<body>
+    <h1>Translate Text to Spanish</h1>
+    <form action="/translate" method="post">
+        <input type="text" name="text" placeholder="Enter text to translate">
+        <input type="submit" value="Translate">
+    </form>
+    <h2>Translation:</h2>
+    <p>{{ translation }}</p>
+</body>
+</html>
